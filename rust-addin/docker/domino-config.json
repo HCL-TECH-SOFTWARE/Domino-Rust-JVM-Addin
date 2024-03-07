@@ -1,0 +1,39 @@
+{
+  "serverSetup": {
+    "server": {
+      "type": "first",
+      "name": "Rust Runner",
+      "domainName": "Rust",
+      "title": "Rust Runner",
+      "password": null,
+      "minPasswordLength": 0,
+      "serverTasks": "rustaddin"
+    },
+    "network": {
+      "hostName": "rust.local",
+      "enablePortEncryption": true,
+      "enablePortCompression": true
+    },
+    "org": {
+      "orgName": "Rust",
+      "certifierPassword": "ThisIsATestPassword"
+    },
+    "admin": {
+      "firstName": "Rust",
+      "lastName": "Test",
+      "password": "ThisIsATestPassword",
+      "IDFilePath": "/local/notesdata/admin.id"
+    },
+    "notesINI": {
+    },
+    "security": {
+      "ACL": {
+        "prohibitAnonymousAccess": true,
+        "addLocalDomainAdmins": true
+      }
+    }
+  },
+  "autoConfigPreferences": {
+    "startServerAfterConfiguration": true
+  }
+}

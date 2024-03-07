@@ -1,0 +1,7 @@
+target/
+.settings
+.classpath
+.project
+/native-image/.factorypath
+.DS_Store
+.vscode/
